@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+}
+.advantages__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    & :not(:last-child) {
+        margin-right: 30px;
+    }
+
+
+    &items-description{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 176%;
+        letter-spacing: 0.02em;
+
+        color: #000000;
+    }
+}
