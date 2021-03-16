@@ -1,20 +1,27 @@
 .contacts-cards__section {
-  
+ background-image: linear-gradient(
+  to bottom,
+  #fff 7%,
+  #FFF5F6 7%,
+ #FFF5F6 93%
+); 
+
+@media screen and (max-width: 767px) {
+padding-left: 30px;
+padding-right: 30px;
+
+}
+ @media screen and (min-width: $desktop) { 
+ background-image: url("./../images/png/contacts/section-contacts-bg@1x-min.png");
+    background-repeat: no-repeat;
+    background-size: contain;   
  background-image: linear-gradient(
   to bottom,
   #fff 25%,
   #FFF5F6 25%,
-   
  #FFF5F6 75%
-);
-@media screen and (max-width: 767px) {
-padding-left: 30px;
-padding-right: 30px;
-}
-@media screen and (max-width: $desktop) {
-background-image: url("./../images/png/contacts/section-contacts-bg@1x-min.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+); 
+
 }
 }
 .contacts-cards__list {
@@ -43,7 +50,7 @@ background-image: url("./../images/png/contacts/section-contacts-bg@1x-min.png")
   background-color: $white-color;
   
   border-radius: 24px;
-  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  
   
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
@@ -246,7 +253,14 @@ background-image: url("./../images/png/contacts/section-contacts-bg@1x-min.png")
   line-height: 1.5;
 
   color: $secondary-text-color;
- 
+  @media screen and (min-width: $tablet) {
+     font-size: 14px;
+  line-height: 1.86;
+  }
+ @media screen and (min-width: $desktop) {
+     font-size: 16px;
+  line-height: 1.81;
+  }
 }
 
 
