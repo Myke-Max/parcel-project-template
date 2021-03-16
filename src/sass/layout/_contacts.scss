@@ -12,16 +12,16 @@ padding-right: 30px;
 
 }
  @media screen and (min-width: $desktop) { 
- background-image: url("./../images/png/contacts/section-contacts-bg@1x-min.png");
-    background-repeat: no-repeat;
-    background-size: contain;   
+ 
  background-image: linear-gradient(
   to bottom,
   #fff 25%,
   #FFF5F6 25%,
  #FFF5F6 75%
-); 
-
+), 
+url("../images/png/contacts/section-contacts-bg@1x-min.png");
+    background-repeat: no-repeat;
+    background-size: contain;   
 }
 }
 .contacts-cards__list {
@@ -151,7 +151,7 @@ padding-right: 30px;
 }
 
 .contacts-cards__text {
- width: 100%;
+/* width: 100%;*/
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
@@ -181,7 +181,7 @@ padding-right: 30px;
    }
    @media screen and (min-width: $desktop) {
     margin-bottom: 64px;
-   
+   width: 163px;
   }
 }
 
@@ -217,7 +217,7 @@ padding-right: 30px;
   }
 }
 .contactacts-cards__shedule-text {
-  width: 100%;
+ 
   font-weight: 500;
   font-size: 12px;
   line-height: 1.83;
@@ -234,6 +234,9 @@ padding-right: 30px;
 
 .contacts-cards__contacts-list {
   position: relative;
+  @media screen and (min-width: $desktop) {
+    width: 243px;
+  }
 }
 .contacts-cards__contacts-list::before {
   content: '';
@@ -260,8 +263,17 @@ padding-right: 30px;
  @media screen and (min-width: $desktop) {
      font-size: 16px;
   line-height: 1.81;
+  
   }
 }
 
-
+/*.content-wrapper {
+  width: 179px;
+  @media screen and (min-width: $tablet) {
+  width: 157px;
+  }
+ @media screen and (min-width: $desktop) {
+    width: 243px;
+  }
+}*/
 
