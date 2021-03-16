@@ -1,10 +1,10 @@
 .contacts-cards__section {
  background-image: linear-gradient(
   to bottom,
-  #fff 35%,
-  #FFF5F6 35%,
+  #fff 20%,
+  #FFF5F6 20%,
    
- #FFF5F6 65%
+ #FFF5F6 80%
 );
 }
 .contacts-cards__list {
@@ -30,10 +30,8 @@
   background-color: $white-color;
   
   border-radius: 24px;
-  &:hover,
-  &:focus {
-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-  }
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 20px;
@@ -253,6 +251,10 @@ box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   line-height: 1.5;
 
   color: $secondary-text-color;
+  &:hover,
+  &:focus {
+box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  }
 }
 
 
