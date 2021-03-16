@@ -1,9 +1,7 @@
-footer {
-    min-width: 320px;
+.footer {
+    background-color: $rose-section-color;
      }
-.container {
- background-color: $rose-section-color;
-}     
+     
 .foot_button {
    margin-right: auto;
    margin-left: auto;
@@ -57,6 +55,7 @@ footer {
     height: 44px;
     border-radius: 22px;
     color: $accent-red-color;
+    transition:$trans-duration $trans-time-func;
   }
   .foot_button-franchise:hover{
     background-color:$icon-bkg-color2;
@@ -147,7 +146,7 @@ background-color:$icon-bkg-color;
 border-radius: 50%;
 justify-content: center;
 align-items: center;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition:$trans-duration $trans-time-func;
 }
 
 .foot_link:hover{
@@ -272,7 +271,7 @@ text-transform: uppercase;
 color: $rose-text-color;
 
 }
-.container{
+.footer__container{
    padding-right: 0;
    padding-left: 0;
 }
@@ -358,9 +357,9 @@ height: 10px;
 .foot_main{
 display: flex;
 justify-content: space-between;
-padding-right: 127px;
-padding-left: 108px;
-margin-bottom: 91px;;
+margin-bottom: 91px;
+padding-right: 121px;
+padding-left:114px;
 }
 .foot_list{
 display: flex;
@@ -409,24 +408,23 @@ justify-content: flex-end;
 padding-bottom: 0;
 
 &-phone{
-font-family: DM Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: right;
-color:$accent-red-color;
-
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color:$accent-red-color;
 }
 &-description{
 font-family: DM Sans;
-font-size: 14px;
+font-size: 16px;
 font-style: normal;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: right;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.02em;
+text-align: left;
 color: $black-color;
 }
 }
