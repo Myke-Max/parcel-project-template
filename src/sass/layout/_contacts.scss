@@ -1,11 +1,17 @@
 .contacts-cards__section {
+  position: relative;
  background-image: linear-gradient(
   to bottom,
-  #fff 20%,
-  #FFF5F6 20%,
+  #fff 15%,
+  #FFF5F6 15%,
    
- #FFF5F6 80%
+ #FFF5F6 95%
 );
+
+@media screen and (max-width: 767px) {
+padding-left: 30px;
+padding-right: 30px;
+}
 }
 .contacts-cards__list {
   list-style: none;
@@ -19,16 +25,16 @@
   
 }
 
-.contacts-cards__container {
-  position: relative;
-}
+
 
 .contacts__bg {
   display: none;
   @media screen and (min-width: 1200px) {
     position: absolute;
-    top: 50%;
-    left: 0;
+    width: 100%;
+    
+    top: 60%;
+    right: 0;
     display: block;
 }
 }
