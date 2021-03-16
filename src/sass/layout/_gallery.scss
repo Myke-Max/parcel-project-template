@@ -1,0 +1,76 @@
+.gallery {
+&__section {
+  
+  background-image: linear-gradient(to bottom, $rose-section-color 43%, #fff 43%);
+}
+
+  &__container {
+    max-width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    max-width: 997px;
+  }
+
+  &__item {
+    width: calc((100%) / 7);
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 2px;
+
+    @media screen and (min-width: $desktop) {
+    margin-right: 4px;
+    }
+  }
+
+  &__item--up {
+    margin-top: -4vw;
+  }
+
+  &__item--big {
+    width: calc((100%) / 7 * 2);
+  }
+
+  &__box {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), z-index linear;
+    z-index: 1;
+
+    @media screen and (min-width: $tablet) {
+      border-radius: 18px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      border-radius: 20px;
+    }
+
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &:hover,
+    &:focus {
+      transform: scale(1.2);
+      z-index: 5;
+    }
+  }
+
+  &__box--up {
+    margin-bottom: 2px;
+
+    @media screen and (min-width: $desktop) {
+    margin-bottom: 4px;
+    }
+  }
+}
