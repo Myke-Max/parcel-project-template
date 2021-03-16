@@ -156,18 +156,30 @@
 
 
 .contacts-cards__shedule-list {
-  max-width: 162px;
+  position: relative;
+  
   
   
   margin-bottom: 50px;
    @media screen and (min-width: 768px) {
      margin-bottom: 60px;
-     max-width: 141px;
+    
    }
    @media screen and (min-width: $desktop) {
     margin-bottom: 64px;
-    max-width: 163px;
+   
   }
+}
+
+.contacts-cards__shedule-list::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -25px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  transform: translateY(-50%);
 }
 
 .contacts-cards__shedule-item:not(:last-child) {
@@ -192,7 +204,7 @@
   }
 }
 .contactacts-cards__shedule-text {
-  
+  width: 100%;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.83;
@@ -210,7 +222,7 @@
 }
 
 .contacts-cards__contacts-list {
-  
+  position: relative;
   
   /*max-width: 179px;*/
   @media screen and (min-width: 768px) {
@@ -220,6 +232,17 @@
   }
 }
 }
+.contacts-cards__contacts-list::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -25px;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  transform: translateY(-50%);
+}
+
 .contacts-cards__contacts-link {
   
   font-weight: 500;
