@@ -1256,7 +1256,8 @@ p {
     width: 335px;
     height: 335px;
     bottom: 400px;
-    background-image: url('../images/png/products/descktop/pic2.png');
+    /* background-image: url('../images/png/products/descktop/pic2.png'); */
+    background-image: url(./pic2.520b7dbb.png);
   }
 }
 
@@ -1265,7 +1266,8 @@ p {
   screen and (min-width: 1280px) and (min-resolution: 192dpi),
   screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .products__list-item--coffee::before {
-    background-image: url('../images/png/products/descktop/pic2@2x.png');
+    /* background-image: url('../images/png/products/descktop/pic2@2x.png'); */
+    background-image: url(./pic2@2x.ef5b812e.png);
   }
 }
 
