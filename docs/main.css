@@ -1749,7 +1749,8 @@ p {
 .advantages__list-items--3::before {
   position: absolute;
   left: 0;
-  background-image: url('/../src/images/png/advanteges/tablet/icon3.png');
+  /*background-image: url('/../src/images/png/advanteges/tablet/icon3.png');*/
+  background-image: url(./icon3.fd64b8d1.png);
   content: '';
   width: 44px;
   height: 50px;
@@ -1791,7 +1792,8 @@ p {
   .advantages__list-items--1::before {
     position: absolute;
     left: 0;
-    background-image: url('/../src/images/png/advanteges/tablet/icon1.png');
+    /*background-image: url('/../src/images/png/advanteges/tablet/icon1.png');*/
+    background-image: url(./icon1.3c67ac21.png);
     content: '';
     width: 33px;
     height: 50px;
@@ -1799,7 +1801,8 @@ p {
   .advantages__list-items--2::before {
     position: absolute;
     left: 0;
-    background-image: url('/../src/images/png/advanteges/tablet/icon2.png');
+    /*background-image: url('/../src/images/png/advanteges/tablet/icon2.png');*/
+    background-image: url(./icon2.ecbf84fa.png);
     content: '';
     width: 50px;
     height: 50px;
@@ -1807,7 +1810,8 @@ p {
   .advantages__list-items--3::before {
     position: absolute;
     left: 0;
-    background-image: url('/../src/images/png/advanteges/tablet/icon3.png');
+    /*background-image: url('/../src/images/png/advanteges/tablet/icon3.png');*/
+    background-image: url(./icon3.fd64b8d1.png);
     content: '';
     width: 44px;
     height: 50px;
@@ -1851,7 +1855,8 @@ p {
   .advantages__list-items--1::before {
     position: absolute;
     left: 0;
-    background-image: url('/../src/images/png/advanteges/descktop/icon1.png');
+    /*background-image: url('/../src/images/png/advanteges/descktop/icon1.png');*/
+    background-image: url(./icon1.226ab13c.png);
     content: '';
     width: 33px;
     height: 50px;
@@ -1859,7 +1864,8 @@ p {
   .advantages__list-items--2::before {
     position: absolute;
     left: 0;
-    background-image: url('/../src/images/png/advanteges/descktop/icon2.png');
+   /* background-image: url('/../src/images/png/advanteges/descktop/icon2.png');*/
+   background-image: url(./icon2.ecbf84fa.png);
     content: '';
     width: 50px;
     height: 50px;
@@ -1867,7 +1873,8 @@ p {
   .advantages__list-items--3::before {
     position: absolute;
     left: 0;
-    background-image: url('/../src/images/png/advanteges/descktop/icon3.png');
+    /*background-image: url('/../src/images/png/advanteges/descktop/icon3.png');*/
+    background-image: url(./icon3.fd64b8d1.png);
     content: '';
     width: 44px;
     height: 50px;
@@ -1997,7 +2004,8 @@ p {
 
 .reviews__text-wrapper {
   background-color: #fafafa;
-  background-image: url(././../images/svg/quote-icon.svg);
+  /*background-image: url(././../images/svg/quote-icon.svg);*/
+  background-image: url(./quote-icon.738dbfe4.svg);
   background-repeat: no-repeat;
   background-position: 61px 28px;
   padding: 43px 50px 20px 50px;
@@ -2144,7 +2152,8 @@ p {
 
 .slick-next {
   right: 0;
-  background: url(././../images/svg/icon-right.svg) 0 0/100% no-repeat;
+  /*background: url(././../images/svg/icon-right.svg)*/ 0 0/100% no-repeat;
+  background: url()
 }
 
 .slick-dots {
