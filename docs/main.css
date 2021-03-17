@@ -1866,8 +1866,8 @@ p {
   .advantages__list-items--2::before {
     position: absolute;
     left: 0;
-   /* background-image: url('/../src/images/png/advanteges/descktop/icon2.png');*/
-   background-image: url(./icon2.ecbf84fa.png);
+    /* background-image: url('/../src/images/png/advanteges/descktop/icon2.png');*/
+    background-image: url(./icon2.ecbf84fa.png);
     content: '';
     width: 50px;
     height: 50px;
@@ -2149,13 +2149,14 @@ p {
 
 .slick-prev {
   left: 0;
-  background: url(././../images/svg/icon-left.svg) 0 0/100% no-repeat;
+  /*background: url(././../images/svg/icon-left.svg) 0 0/100% no-repeat;*/
+  background: url(./icon-left.78d33115.svg) 0 0/100% no-repeat;
 }
 
 .slick-next {
   right: 0;
-  /*background: url(././../images/svg/icon-right.svg)*/ 0 0/100% no-repeat;
-  background: url()
+  /*background: url(././../images/svg/icon-right.svg) 0 0/100% no-repeat;*/
+  background: url(./icon-right.5bb55ad9.svg) 0 0/100% no-repeat;
 }
 
 .slick-dots {
