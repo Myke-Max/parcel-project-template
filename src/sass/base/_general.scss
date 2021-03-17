@@ -1,7 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans';
   color: #000000;
   background-color: #ffffff;
+  min-width: 320px;
 }
 
 ul,
@@ -17,6 +22,9 @@ button {
   padding: 0;
   border: transparent;
   border-radius: 50%;
+  &:focus {
+    outline: none;
+  }
 }
 
 a {
@@ -29,23 +37,34 @@ img {
   height: auto;
 }
 
+.is-hidden {
+  display: none;
+}
+
 .container {
-  position: relative;
+  // position: relative;
   margin-right: auto;
   margin-left: auto;
   padding-left: 20px;
   padding-right: 20px;
-  max-width: 767px;
+  width: 100%;
+  min-width: 320px;
+  // max-width: 480px;
 
-  @media screen and(min-width:$tablet) and (max-width: $desktop - 1) {
-    max-width: $tablet;
-    padding-left: 34px;
+  @media screen and(min-width:$mobile) {
+    width: 480px;
+  }
+
+  @media screen and(min-width:$tablet) {
+    width: 768px;
     padding-right: 34px;
+    padding-left: 34px;
   }
 
   @media screen and(min-width:$desktop) {
-    max-width: $desktop;
-    padding-left: 46px;
+    width: $desktop;
+    max-width: 100vw;
+    padding-left: 115px;
     padding-right: 115px;
   }
 }
