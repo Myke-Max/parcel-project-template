@@ -2166,7 +2166,8 @@ p {
 }
 
 .slick-dots li.slick-active button {
-  background-image: url(././../images/svg/home.svg);
+  /*background-image: url(././../images/svg/home.svg);*/
+  background-image: url(./home.f1c4a4e0.svg);
   background-color: transparent;
   background-position: center;
   background-size: contain;
