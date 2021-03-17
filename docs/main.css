@@ -1156,8 +1156,8 @@ p {
     width: 220px;
     height: 226px;
     bottom: 363px;
-    background-image: url('../images/png/products/tablet/pic1.png');
-    background-image: url(../docs/);
+    /* background-image: url('../images/png/products/tablet/pic1.png'); */
+    background-image: url(../docs/pic1.b4cde495.png);
   }
 }
 
@@ -1166,7 +1166,8 @@ p {
   screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .products__list-item--icecream::before {
-    background-image: url('../images/png/products/tablet/pic1@2x.png');
+    /* background-image: url('../images/png/products/tablet/pic1@2x.png'); */
+    background-image: url(../docs/pic1@2x.6065ac82.png);
   }
 }
 
@@ -1175,7 +1176,8 @@ p {
     width: 335px;
     height: 335px;
     bottom: 400px;
-    background-image: url('../images/png/products/descktop/pic1.png');
+    /* background-image: url('../images/png/products/descktop/pic1.png'); */
+    background-image: url(../docs/);
   }
 }
 
@@ -1403,7 +1405,8 @@ p {
   padding-top: 130px;
   padding-bottom: 40px;
   background-color: #fff5f6;
-  background-image: url('./../images/png/about-bg/descktop/bg-img1.png');
+  /* background-image: url('./../images/png/about-bg/descktop/bg-img1.png'); */
+  background-image: url(./../docs/bg-img1.eaa354df.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 90%;
@@ -1711,7 +1714,8 @@ p {
 .advantages__list-items--1::before {
   position: absolute;
   left: 0;
-  background-image: url('/../src/images/png/advanteges/tablet/icon1.png');
+  /* background-image: url('/../src/images/png/advanteges/tablet/icon1.png'); */
+  background-image: url(./../docs/icon1.226ab13c.png);
   content: '';
   width: 33px;
   height: 50px;
@@ -1720,7 +1724,8 @@ p {
 .advantages__list-items--2::before {
   position: absolute;
   left: 0;
-  background-image: url('/../src/images/png/advanteges/tablet/icon2.png');
+  /* background-image: url('/../src/images/png/advanteges/tablet/icon2.png'); */
+  background-image: url(./../docs/);
   content: '';
   width: 50px;
   height: 50px;
