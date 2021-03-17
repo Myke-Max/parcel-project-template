@@ -1215,7 +1215,8 @@ p {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-image: url('../images/png/products/mobile/pic2.png');
+  /* background-image: url('../images/png/products/mobile/pic2.png'); */
+  background-image: url(./pic2.6c5cbae7.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1225,7 +1226,8 @@ p {
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .products__list-item--coffee::before {
-    background-image: url('../images/png/products/mobile/pic2@2x.png');
+    /* background-image: url('../images/png/products/mobile/pic2@2x.png'); */
+    background-image: url(./pic2@2x.3e9212fd.png);
   }
 }
 
@@ -1234,7 +1236,8 @@ p {
     width: 220px;
     height: 226px;
     bottom: 363px;
-    background-image: url('../images/png/products/tablet/pic2.png');
+    /* background-image: url('../images/png/products/tablet/pic2.png'); */
+    background-image: url(./pic2.22ab3d37.png);
   }
 }
 
@@ -1243,7 +1246,8 @@ p {
   screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .products__list-item--coffee::before {
-    background-image: url('../images/png/products/tablet/pic2@2x.png');
+    /* background-image: url('../images/png/products/tablet/pic2@2x.png'); */
+    background-image: url(./pic2@2x.ef5b812e.png);
   }
 }
 
@@ -1252,7 +1256,8 @@ p {
     width: 335px;
     height: 335px;
     bottom: 400px;
-    background-image: url('../images/png/products/descktop/pic2.png');
+    /* background-image: url('../images/png/products/descktop/pic2.png'); */
+    background-image: url(./pic2.520b7dbb.png);
   }
 }
 
@@ -1261,7 +1266,8 @@ p {
   screen and (min-width: 1280px) and (min-resolution: 192dpi),
   screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .products__list-item--coffee::before {
-    background-image: url('../images/png/products/descktop/pic2@2x.png');
+    /* background-image: url('../images/png/products/descktop/pic2@2x.png'); */
+    background-image: url(./pic2@2x.ef5b812e.png);
   }
 }
 
