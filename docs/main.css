@@ -1146,7 +1146,7 @@ p {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   /* background-image: url('../images/png/products/mobile/pic1.png'); */
-  background-image: url(../docs/pic1.4d0a1108.png);
+  background-image: url(./pic1.4d0a1108.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1157,7 +1157,7 @@ p {
   screen and (min-resolution: 2dppx) {
   .products__list-item--icecream::before {
     /* background-image: url('../images/png/products/mobile/pic1@2x.png'); */
-    background-image: url(../docs/pic1@2x.3a708a9e.png);
+    background-image: url(./pic1@2x.6065ac82.png);
   }
 }
 
@@ -1167,7 +1167,7 @@ p {
     height: 226px;
     bottom: 363px;
     /* background-image: url('../images/png/products/tablet/pic1.png'); */
-    background-image: url(../docs/pic1.b4cde495.png);
+    background-image: url(./);
   }
 }
 
