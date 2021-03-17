@@ -308,14 +308,19 @@ summary {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/dm-sans-v6-latin-700.eot');
+  src: url('./dm-sans-v6-latin-700.f08a1f3b.eot');
   /* IE9 Compat Modes */
   src: local(''),
-    url('../fonts/dm-sans-v6-latin-700.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/dm-sans-v6-latin-700.woff2') format('woff2'),
-    url('../fonts/dm-sans-v6-latin-700.woff') format('woff'),
-    url('../fonts/dm-sans-v6-latin-700.ttf') format('truetype'),
-    url('../fonts/dm-sans-v6-latin-700.svg#DMSans') format('svg');
+    /* url('../fonts/dm-sans-v6-latin-700.eot?#iefix') format('embedded-opentype'), */
+      url(./dm-sans-v6-latin-700.f08a1f3b.eot) format('embedded-opentype'),
+    /* url('../fonts/dm-sans-v6-latin-700.woff2') format('woff2'), */
+      url(./dm-sans-v6-latin-700.d929dea6.woff2) format('woff2'),
+    /* url('../fonts/dm-sans-v6-latin-700.woff') format('woff'), */
+      url(./dm-sans-v6-latin-700.42c96a41.woff) format('woff'),
+    /* url('../fonts/dm-sans-v6-latin-700.ttf') format('truetype'), */
+      url(./dm-sans-v6-latin-700.405f0335.ttf) format('truetype'),
+    /* url('../fonts/dm-sans-v6-latin-700.svg#DMSans') format('svg'); */
+      url(./dm-sans-v6-latin-700.b4c46e03.svg) format('svg');
   /* Legacy iOS */
 }
 
@@ -324,15 +329,20 @@ summary {
   font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/titan-one-v8-latin-regular.eot');
+  /* src: url('../fonts/titan-one-v8-latin-regular.eot'); */
+  src: url(./titan-one-v8-latin-regular.5ecfba8a.eot);
   /* IE9 Compat Modes */
   src: local(''),
-    url('../fonts/titan-one-v8-latin-regular.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/titan-one-v8-latin-regular.woff2') format('woff2'),
-    url('../fonts/titan-one-v8-latin-regular.woff') format('woff'),
-    url('../fonts/titan-one-v8-latin-regular.ttf') format('truetype'),
-    url('../fonts/titan-one-v8-latin-regular.svg#TitanOne') format('svg');
+    /* url('../fonts/titan-one-v8-latin-regular.eot?#iefix') */
+      url(./titan-one-v8-latin-regular.5ecfba8a.eot) format('embedded-opentype'),
+    /* url('../fonts/titan-one-v8-latin-regular.woff2')  */
+      url(./titan-one-v8-latin-regular.c7773417.woff2) format('woff2'),
+    /* url('../fonts/titan-one-v8-latin-regular.woff') */
+      url(./titan-one-v8-latin-regular.7f3e05d4.woff) format('woff'),
+    /* url('../fonts/titan-one-v8-latin-regular.ttf')  */
+      url(./titan-one-v8-latin-regular.289eb43c.ttf) format('truetype'),
+    /* url('../fonts/titan-one-v8-latin-regular.svg#TitanOne') */
+      url(./titan-one-v8-latin-regular.6dce54aa.svg) format('svg');
   /* Legacy iOS */
 }
 
