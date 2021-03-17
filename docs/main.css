@@ -1327,7 +1327,7 @@ p {
     height: 335px;
     bottom: 400px;
     /* background-image: url('../images/png/products/descktop/pic3.png'); */
-    /* background-image: url(./); */
+    background-image: url(./pic3.484b0417.png);
   }
 }
 
@@ -1336,7 +1336,8 @@ p {
   screen and (min-width: 1280px) and (min-resolution: 192dpi),
   screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .products__list-item--milkshakes::before {
-    background-image: url('../images/png/products/descktop/pic3@2x.png');
+    /* background-image: url('../images/png/products/descktop/pic3@2x.png'); */
+    background-image: url(./pic3@2x.24c75d78.png);
   }
 }
 
