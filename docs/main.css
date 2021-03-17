@@ -1417,7 +1417,7 @@ p {
   padding-bottom: 40px;
   background-color: #fff5f6;
   /* background-image: url('./../images/png/about-bg/descktop/bg-img1.png'); */
-  background-image: url(./../docs/bg-img1.eaa354df.png);
+  background-image: url(./bg-img1.eaa354df.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 90%;
@@ -1726,7 +1726,7 @@ p {
   position: absolute;
   left: 0;
   /* background-image: url('/../src/images/png/advanteges/tablet/icon1.png'); */
-  background-image: url(./../docs/icon1.226ab13c.png);
+  background-image: url(./icon3.fd64b8d1.png);
   content: '';
   width: 33px;
   height: 50px;
@@ -1736,7 +1736,7 @@ p {
   position: absolute;
   left: 0;
   /* background-image: url('/../src/images/png/advanteges/tablet/icon2.png'); */
-  background-image: url(./../docs/);
+  background-image: url(./icon2.ecbf84fa.png);
   content: '';
   width: 50px;
   height: 50px;
